@@ -1,0 +1,127 @@
+#header {
+  padding: 15px 0;
+}
+
+#header .menu li a {
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+#header .menu .right-ico i {
+  margin-left: 8px;
+}
+
+.slider {
+  background: url(../photo/41.jpg);
+  background-attachment: fixed;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.slider .sld-effect1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+  background: url(../photo/top.png);
+}
+
+.slider .sld-effect2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background: url(../photo/top.png);
+}
+
+.sale-item {
+  -webkit-transition: .3s;
+  transition: .3s;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.sale-item span {
+  color: #ff4c3b;
+}
+
+.sale-item:hover .sale-img1 {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.sale-item:hover .sale-img2 {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.sale-item .sale-img1 {
+  background: url(../photo/1.jpg);
+}
+
+.sale-item .sale-img2 {
+  background: url(../photo/2.jpg);
+  text-align: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sale-item .sale-img1, .sale-item .sale-img2 {
+  height: 250px;
+  padding: 0 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.products .pro-item {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.products .pro-item .pro-ico i {
+  color: goldenrod;
+}
+
+.collection {
+  background: url(../photo/20.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 80vh;
+  margin: 5em 0;
+  position: relative;
+}
+
+.collection .collection1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+  background: url(../photo/top.png);
+}
+
+.collection .collection2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background: url(../photo/top.png);
+}
+/*# sourceMappingURL=style.css.map */
